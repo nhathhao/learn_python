@@ -37,7 +37,7 @@ if is_male is None:
 elif is_male is True:
 	if heightFeet > 6.5:
 		print("You are", end = " ")
-		# Vòng lặp lại 10 lần chữ "very"
+		# Vòng lặp lại 10 lần chữ "very" bằng for
 		for i in range(10):
 			print("very", end = " ")
 		print("tall as a man")
@@ -48,6 +48,14 @@ elif is_male is True:
 elif is_male is False:
 	if heightFeet > 5.7:
 		print("You are tall as a girl")
+	elif heightFeet < 5.0:
+		print("You are",end = " ")
+		# Vòng lặp lại 10 lần chữ "very" với while
+		i = 0
+		while i < 10:
+			print("very", end = " ")
+			i += 1
+		print("short as a girl")
 	else:
 		print("You are short as a girl")
 else:
