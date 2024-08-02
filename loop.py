@@ -1,2 +1,2 @@
-for i in range(5):
-	print(5 - i)
+for i in range(4):
+	print(2 * i + 1)
