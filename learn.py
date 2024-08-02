@@ -7,6 +7,7 @@ lastName = input("Your lastname: ")
 yearBorn = input("When you're born: ")
 heightMeter = input("Your height (meter): ")
 
+# Dùng vòng lặp while để buộc người dùng nhập đúng yêu cầu
 while True:
 	genderInput = input("Are you male (yes/no): ")
 	if (genderInput == "yes") or (genderInput == "no"):
