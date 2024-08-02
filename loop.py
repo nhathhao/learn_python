@@ -3,10 +3,14 @@ for i in range (0,2):
 		print(j)
 		print(i)
 
+print("\n ---- \n")
+
 for i in range(10):
 	if i == 5:
 		continue
 	print(i)
+
+print("\n ---- \n")
 
 for i in range(10):
 	if i == 5:
