@@ -17,6 +17,8 @@
 # 		break
 # 	print(i)
 
+mauSo = 0
+
 for i in range(100):
 	if i == 1:
 		continue
