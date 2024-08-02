@@ -24,7 +24,6 @@ for i in range(100):
 		continue
 	if i % 2 == 0:
 		continue
-	print(i)
 
 s_denomerator += 1 / i
 s = 1 / s_denominator
