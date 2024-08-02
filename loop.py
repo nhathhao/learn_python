@@ -40,3 +40,8 @@
 # s = 1 / s_denominator
 # s = round(s, 2)
 # print("S = " + str(s))
+
+i = 0
+while i < 5:
+	print(i)
+	i += 1
