@@ -26,4 +26,4 @@ for i in range(100):
 		continue
 	print(i)
 
-s_numerator += 1 / i
+s_denomerator += 1 / i
