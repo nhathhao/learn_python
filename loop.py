@@ -29,3 +29,14 @@
 # s = 1 / s_denominator
 # s = round(s, 2)
 # print(s)
+
+s_denominator = 0
+
+for i in range(3,100,2):
+	if i == 1:
+		continue
+	s_denominator += 1 / i
+
+s = 1 / s_denominator
+s = round(s, 2)
+print(s)
