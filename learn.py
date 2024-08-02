@@ -6,6 +6,7 @@ firstName = input("Your firstname: ")
 lastName = input("Your lastname: ")
 yearBorn = input("When you're born: ")
 heightMeter = input("Your height (meter): ")
+genderInput = input("Are you male (yes/no): ")
 
 yearBorn = int(yearBorn)  # Ép kiểu của biến về dạng integer vì input() nhập vào string
 
@@ -20,7 +21,6 @@ print("Your name is " + firstName + " " + lastName)
 print("{2} is {0} years old in {1} ".format(age, CURRENT_YEAR, firstName))
 print("You are " + str(heightFeet) + " feet tall")
 
-genderInput = input("Are you male (yes/no): ")
 is_male = None
 
 # Dùng if_else để chuyển từ string input sang boolean true/false
