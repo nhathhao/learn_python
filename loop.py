@@ -25,7 +25,7 @@ for i in range(100):
 	if i % 2 == 0:
 		continue
 
-s_denomerator += 1 / i
+s_denominator += 1 / i
 s = 1 / s_denominator
 
 print(s)
