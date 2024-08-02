@@ -29,17 +29,12 @@ print("You are " + str(heightFeet) + " feet tall")
 is_male = None
 
 # Dùng if_else để chuyển từ string input sang boolean true/false
-if (genderInput == "yes") or (genderInput == "Yes") or (genderInput == "y"):
+if genderInput == "yes":
 	is_male = True
-elif (genderInput == "no") or (genderInput == "No") or (genderInput == "n"):
-	is_male = False
 else:
-	is_male = None  # Dòng này ghi none để hứng những kiểu còn lại ngoài true/false
+	is_male = False
 
-# Đoạn if else này dùng để kiểm tra các trường hợp
-if is_male is None:
-	print("Invalid Answer")
-elif is_male is True:
+if is_male is True:
 	if heightFeet > 6.5:
 		print("You are", end = " ")
 		# Vòng lặp lại 10 lần chữ "very" bằng for
@@ -50,7 +45,8 @@ elif is_male is True:
 		print("You are tall as a man")
 	else:
 		print("You are short as a man")
-elif is_male is False:
+
+if is_male is False:
 	if heightFeet > 5.7:
 		print("You are tall as a girl")
 	elif heightFeet < 5.0:
@@ -63,5 +59,3 @@ elif is_male is False:
 		print("short as a girl")
 	else:
 		print("You are short as a girl")
-else:
-	print("System error: Variable 'is_male' is not correct")
