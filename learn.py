@@ -6,7 +6,11 @@ firstName = input("Your firstname: ")
 lastName = input("Your lastname: ")
 yearBorn = input("When you're born: ")
 heightMeter = input("Your height (meter): ")
-genderInput = input("Are you male (yes/no): ")
+
+while True:
+	genderInput = input("Are you male (yes/no): ")
+	if (genderInput == "yes") or (genderInput == "no"):
+		break
 
 yearBorn = int(yearBorn)  # Ép kiểu của biến về dạng integer vì input() nhập vào string
 
@@ -49,7 +53,7 @@ elif is_male is False:
 	if heightFeet > 5.7:
 		print("You are tall as a girl")
 	elif heightFeet < 5.0:
-		print("You are",end = " ")
+		print("You are", end = " ")
 		# Vòng lặp lại 10 lần chữ "very" với while
 		i = 0
 		while i < 10:
