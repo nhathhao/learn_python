@@ -36,7 +36,11 @@ if is_male is None:
 	print("Invalid Answer")
 elif is_male is True:
 	if heightFeet > 6.5:
-		print("You are very tall as a man")
+		print("You are", end = " ")
+		# Vòng lặp lại 10 lần chữ "very"
+		for i in range(10):
+			print("very", end = " ")
+		print("tall as a man")
 	elif heightFeet > 6.0:
 		print("You are tall as a man")
 	else:
