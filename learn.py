@@ -26,10 +26,14 @@ is_male = None
 # Dùng if_else để chuyển từ string input sang boolean true/false
 if (genderInput == "yes") or (genderInput == "Yes") or (genderInput == "y"):
 	is_male = True
+	print("---")
+	print(is_male)
 elif (genderInput == "no") or (genderInput == "No") or (genderInput == "n"):
 	is_male = False
 else:
 	is_male = None  # Dòng này ghi none để hứng những kiểu còn lại ngoài true/false
+	print("---")
+	print(is_male)
 
 # Đoạn if else này dùng để kiểm tra các trường hợp
 if is_male is None:
