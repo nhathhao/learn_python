@@ -39,4 +39,4 @@ for i in range(3, 100, 2):
 
 s = 1 / s_denominator
 s = round(s, 2)
-print(s)
+print("S = " + str(s))
