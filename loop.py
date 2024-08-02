@@ -1,5 +1,5 @@
-for i in range (0,2):
-	for j in range (3,5):
+for i in range(0, 2):
+	for j in range(3, 5):
 		print(j)
 		print(i)
 
@@ -32,7 +32,7 @@ print(s)
 
 s_denominator = 0
 
-for i in range(3,100,2):
+for i in range(3, 100, 2):
 	if i == 1:
 		continue
 	s_denominator += 1 / i
