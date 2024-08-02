@@ -27,3 +27,6 @@ for i in range(100):
 	print(i)
 
 s_denomerator += 1 / i
+s = 1 / s_denominator
+
+print(s)
