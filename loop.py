@@ -27,4 +27,5 @@ for i in range(100):
 	s_denominator += 1 / i
 
 s = 1 / s_denominator
+s = round(s, 2)
 print(s)
