@@ -15,7 +15,7 @@ while True:
 
 yearBorn = int(yearBorn)  # Ép kiểu của biến về dạng integer vì input() nhập vào string
 
-age = CURRENT_YEAR - yearBorn
+age = CURRENT_YEAR - yearBorn # Tính tuổi tới năm 2024 của người dùng
 
 heightMeter = float(heightMeter)  # Ép kiểu của biến về dạng float vì input() nhập vào string
 heightFeet = heightMeter * METER_TO_FEET
