@@ -4,8 +4,8 @@
 # 	print("c")
 # print_letter()
 
-def print_number(max):
-	for i in range(max):
+def print_number(max_number):
+	for i in range(max_number):
 		print(i)
 
 
