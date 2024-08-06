@@ -20,5 +20,5 @@ def add_one(number):
 
 
 x = 2
-num = add_one(x)
-print(num)
+x = add_one(x)
+print(x)
