@@ -29,18 +29,7 @@ def main():
 	print_hocsinh_b(ten_hocsinh_b)
 
 
-def print_hocsinh_a(name):
-	print("Hoc sinh A")
-	print("Ten: " + name)
-	print("Toan: 8")
-	print("Van: 7")
 
-
-def print_hocsinh_b(name):
-	print("Hoc sinh b")
-	print("Ten: " + name)
-	print("Toan: 8")
-	print("Van: 7")
 
 
 main()
