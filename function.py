@@ -24,13 +24,14 @@
 # print(x)
 def main():
 	ten_hocsinh_a = "Hao"
-	ten_hocsinh_a = "Quang"
-	print_hocsinh_a()
-	print_hocsinh_b()
+	ten_hocsinh_b = "Quang"
+	print_hocsinh_a(ten_hocsinh_a)
+	print_hocsinh_b(ten_hocsinh_b)
 
 
-def print_hocsinh_a():
+def print_hocsinh_a(name):
 	print("Hoc sinh A")
+	print("Ten: " + name)
 	print("Toan: 8")
 	print("Van: 7")
 
