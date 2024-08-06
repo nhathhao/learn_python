@@ -31,7 +31,7 @@ def main():
 	toanB = 8
 	vanB = 9
 
-	print_hocsinh(tenA, toanA, vanB)
+	print_hocsinh(tenA, toanA, vanA)
 	print_hocsinh(tenB, toanB, vanB)
 
 
