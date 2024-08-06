@@ -13,12 +13,12 @@
 # max_num = input("Giới hạn của dãy số: ")
 # dis = input("Khoảng cách các số: ")
 # print_number(int(min_num), int(max_num), int(dis))
-
-def add_one(number):
-	number += 1
-	return number
-
-
-x = 2
-x = add_one(x)
-print(x)
+#
+# def add_one(number):
+# 	number += 1
+# 	return number
+#
+#
+# x = 2
+# x = add_one(x)
+# print(x)
