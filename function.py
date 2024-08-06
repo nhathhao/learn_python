@@ -9,4 +9,5 @@ def print_number(max_number):
 		print(i)
 
 
-print_number(10)
+max_num = input("Giới hạn của dãy số: ")
+print_number(int(max_num))
