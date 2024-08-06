@@ -23,6 +23,8 @@
 # x = add_one(x)
 # print(x)
 def main():
+	ten_hocsinh_a = "Hao"
+	ten_hocsinh_a = "Quang"
 	print_hocsinh_a()
 	print_hocsinh_b()
 
