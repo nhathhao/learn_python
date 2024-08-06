@@ -23,13 +23,21 @@
 # x = add_one(x)
 # print(x)
 def main():
-	ten_hocsinh_a = "Hao"
-	ten_hocsinh_b = "Quang"
-	print_hocsinh_a(ten_hocsinh_a)
-	print_hocsinh_b(ten_hocsinh_b)
+	tenA = "Hao"
+	toanA = 9
+	vanA = 7
+
+	tenB = "Quang"
+	toanB = 8
+	vanB = 9
+
+	print_hocsinh(tenA, toanA, vanB)
+	print_hocsinh(tenB, toanB, vanB)
 
 
-
-
+def print_hocsinh(ten, diemToan, diemVan):
+	print("Ten: " + tem)
+	print("Toan: " + str(diemToan))
+	print("Van: " + str(diemVan))
 
 main()
