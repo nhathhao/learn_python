@@ -36,7 +36,7 @@ def main():
 
 
 def print_hocsinh(ten, diemToan, diemVan):
-	print("Ten: " + tem)
+	print("Ten: " + ten)
 	print("Toan: " + str(diemToan))
 	print("Van: " + str(diemVan))
 
