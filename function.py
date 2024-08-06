@@ -36,8 +36,9 @@ def print_hocsinh_a(name):
 	print("Van: 7")
 
 
-def print_hocsinh_b():
-	print("Hoc sinh A")
+def print_hocsinh_b(name):
+	print("Hoc sinh b")
+	print("Ten: " + name)
 	print("Toan: 8")
 	print("Van: 7")
 
