@@ -40,4 +40,5 @@ def print_hocsinh(ten, diemToan, diemVan):
 	print("Toan: " + str(diemToan))
 	print("Van: " + str(diemVan))
 
+
 main()
