@@ -22,11 +22,21 @@
 # x = 2
 # x = add_one(x)
 # print(x)
-
-
-
 def main():
+	print_hocsinh_a()
+	print_hocsinh_b()
 
+
+def print_hocsinh_a():
+	print("Hoc sinh A")
+	print("Toan: 8")
+	print("Van: 7")
+
+
+def print_hocsinh_b():
+	print("Hoc sinh A")
+	print("Toan: 8")
+	print("Van: 7")
 
 
 main()
