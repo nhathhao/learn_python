@@ -9,4 +9,4 @@ def print_number(max):
 		print(i)
 
 
-print_number()
+print_number(3)
