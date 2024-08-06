@@ -4,10 +4,12 @@
 # 	print("c")
 # print_letter()
 
-def print_number(max_number):
-	for i in range(max_number):
+def print_number(min_munber, max_number, distance):
+	for i in range(min_munber, max_number, distance):
 		print(i)
 
 
+min_num = input("Số bắt đầu: ")
 max_num = input("Giới hạn của dãy số: ")
-print_number(int(max_num))
+dis = input("Khoảng cách các số: ")
+print_number(int(min_num), int(max_num), int(dis))
