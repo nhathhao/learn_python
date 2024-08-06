@@ -3,4 +3,11 @@ def print_number():
 		print(i)
 
 
+def print_letter():
+	print("a")
+	print("b")
+	print("c")
+
+
 print_number()
+print_letter()
